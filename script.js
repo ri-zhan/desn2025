@@ -46,7 +46,7 @@ fetch(url)
       const nameElement = document.createElement("p");
       nameElement.textContent = row.c[0].v;
       const linkElement = document.createElement("p");
-      linkElement.innerHTML = `<a href="${row.c[1].v}">${row.c[1].v}</a>`;
+      linkElement.innerHTML = `<a href="${row.c[1].v}" target=”_blank”>${row.c[1].v}</a>`;
       // linkElement.textContent = row.c[1].v
       // element. innerHTML = `<a href="${url}">${text}</a>`;
       const areaElement = document.createElement("p");
