@@ -19,4 +19,5 @@ p {
   display: flex;
   flex-direction: column;
   grid-column: span 2;
+  padding: 0.5rem 1rem;
 }
